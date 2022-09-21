@@ -10,6 +10,7 @@ import UIKit
 class LoginViewController: UIViewController {
     
     let stackView = UIStackView()
+    let bankTitle = UILabel()
     let loginView = LoginView()
     let signInButton = UIButton(type: .system)
     let errorMessageLabel = UILabel()
@@ -37,6 +38,12 @@ extension LoginViewController {
         stackView.spacing = 16
         stackView.axis = .vertical
         
+        bankTitle.translatesAutoresizingMaskIntoConstraints = false
+        bankTitle.adjustsFontSizeToFitWidth = true
+        bankTitle.font = UIFont.preferredFont(forTextStyle: .title1)
+        bankTitle.textAlignment = .center
+        bankTitle.text = "Welcome to Banked Up!"
+        
         loginView.translatesAutoresizingMaskIntoConstraints = false
         
         signInButton.translatesAutoresizingMaskIntoConstraints = false
@@ -53,6 +60,7 @@ extension LoginViewController {
     }
     
     private func layout() {
+        stackView.addArrangedSubview(bankTitle)
         stackView.addArrangedSubview(loginView)
         stackView.addArrangedSubview(signInButton)
         stackView.addArrangedSubview(errorMessageLabel)
@@ -79,5 +87,22 @@ extension LoginViewController {
             assertionFailure("Username / Password should never be nil")
             return
         }
+        
+        if username.isEmpty || password.isEmpty {
+            configureView(withMessage: "Username and/or password cannot be blank")
+            return
+        }
+        
+        if username == "Kevin" && password == "Welcome" {
+            signInButton.configuration?.showsActivityIndicator = true
+        } else {
+            configureView(withMessage: "Incorrect username and/or password.")
+            return
+        }
+    }
+    
+    private func configureView(withMessage message: String) {
+        errorMessageLabel.isHidden = false
+        errorMessageLabel.text = message
     }
 }
