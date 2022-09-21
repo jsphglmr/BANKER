@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C75112EE28DABABB008F04BE /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */; };
 		C77ABCA728D8C6F300849FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77ABCA628D8C6F300849FF3 /* AppDelegate.swift */; };
 		C77ABCAB28D8C6F300849FF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77ABCAA28D8C6F300849FF3 /* LoginViewController.swift */; };
 		C77ABCB028D8C6F400849FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77ABCAF28D8C6F400849FF3 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		C77ABCA328D8C6F300849FF3 /* Banked Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banked Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77ABCA628D8C6F300849FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77ABCAA28D8C6F300849FF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C75112EC28DABA9D008F04BE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		C77ABC9A28D8C6F300849FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				C77ABCBB28D8CDA800849FF3 /* Files */,
+				C75112EC28DABA9D008F04BE /* Onboarding */,
 				C77ABCBC28D8CDEE00849FF3 /* Login */,
 				C77ABCA628D8C6F300849FF3 /* AppDelegate.swift */,
 			);
@@ -153,6 +164,7 @@
 				C77ABCBE28D8CE1800849FF3 /* LoginView.swift in Sources */,
 				C77ABCAB28D8C6F300849FF3 /* LoginViewController.swift in Sources */,
 				C77ABCA728D8C6F300849FF3 /* AppDelegate.swift in Sources */,
+				C75112EE28DABABB008F04BE /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
