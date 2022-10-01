@@ -6,4 +6,3 @@ Banking app with test cases in authentication, login, onboarding, etc.
 * onboarding
 * login vc
 * logout logic
-*
