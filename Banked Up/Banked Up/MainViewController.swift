@@ -48,12 +48,6 @@ class MainViewController: UITabBarController {
     }
 }
 
-class AccountSummaryViewController: UIViewController {
-    override func viewDidLoad() {
-        view.backgroundColor = .systemRed
-    }
-}
-
 class TransferViewController: UIViewController {
     override func viewDidLoad() {
         view.backgroundColor = .systemOrange
