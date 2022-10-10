@@ -28,7 +28,7 @@ class MainViewController: UITabBarController {
         let transferNC = UINavigationController(rootViewController: transferVC)
         let moreNC = UINavigationController(rootViewController: moreVC)
         
-        summaryNC.navigationBar.barTintColor = appColor
+        summaryNC.navigationBar.barTintColor = .label
         hideNavigationBarLine(summaryNC.navigationBar)
         
         let tabBarList = [summaryNC, transferNC, moreNC]
