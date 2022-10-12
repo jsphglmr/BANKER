@@ -101,10 +101,10 @@ extension AccountSummaryViewController {
                                                             accountName: "Basic Savings",
                                                         balance: 929466.23)
         let chequing = AccountSummaryCell.ViewModel(accountType: .Banking,
-                                                    accountName: "No-Fee All-In Chequing",
+                                                    accountName: "No-Fee All-In Checking",
                                                     balance: 17562.44)
         let visa = AccountSummaryCell.ViewModel(accountType: .CreditCard,
-                                                       accountName: "Visa Avion Card",
+                                                       accountName: "Visa Card",
                                                        balance: 412.83)
         let masterCard = AccountSummaryCell.ViewModel(accountType: .CreditCard,
                                                        accountName: "Student Mastercard",
