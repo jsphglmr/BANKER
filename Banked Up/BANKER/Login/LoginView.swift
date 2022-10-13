@@ -1,6 +1,6 @@
 //
 //  LoginView.swift
-//  Banked Up
+//  BANKER
 //
 //  Created by Joseph Gilmore on 9/19/22.
 //

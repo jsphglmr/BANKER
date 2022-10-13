@@ -62,14 +62,14 @@
 		C768C6B428EA88FF0028A01F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C768C6B728EBE7FD0028A01F /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		C768C6B928EBEA750028A01F /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
-		C77ABCA328D8C6F300849FF3 /* Banked Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banked Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77ABCA328D8C6F300849FF3 /* BANKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BANKER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77ABCA628D8C6F300849FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77ABCAA28D8C6F300849FF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C77ABCAF28D8C6F400849FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77ABCB228D8C6F400849FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77ABCB428D8C6F500849FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77ABCBD28D8CE1800849FF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		C7B0C62C28F213AE0058F081 /* Banked Up Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Banked Up Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B0C62C28F213AE0058F081 /* BANKER Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BANKER Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B0C63528F213C10058F081 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		C7B0C63728F476370058F081 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		C7B0C63928F47BAD0058F081 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
@@ -163,8 +163,8 @@
 		C77ABC9A28D8C6F300849FF3 = {
 			isa = PBXGroup;
 			children = (
-				C77ABCA528D8C6F300849FF3 /* Banked Up */,
-				C7B0C62D28F213AE0058F081 /* Banked Up Unit Tests */,
+				C77ABCA528D8C6F300849FF3 /* BANKER */,
+				C7B0C62D28F213AE0058F081 /* BANKER Unit Tests */,
 				C77ABCA428D8C6F300849FF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,13 +172,13 @@
 		C77ABCA428D8C6F300849FF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C77ABCA328D8C6F300849FF3 /* Banked Up.app */,
-				C7B0C62C28F213AE0058F081 /* Banked Up Unit Tests.xctest */,
+				C77ABCA328D8C6F300849FF3 /* BANKER.app */,
+				C7B0C62C28F213AE0058F081 /* BANKER Unit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C77ABCA528D8C6F300849FF3 /* Banked Up */ = {
+		C77ABCA528D8C6F300849FF3 /* BANKER */ = {
 			isa = PBXGroup;
 			children = (
 				C77ABCA628D8C6F300849FF3 /* AppDelegate.swift */,
@@ -190,7 +190,7 @@
 				C70D1EC628F6194F00B50572 /* Components */,
 				C77ABCBB28D8CDA800849FF3 /* Files */,
 			);
-			path = "Banked Up";
+			path = BANKER;
 			sourceTree = "<group>";
 		};
 		C77ABCBB28D8CDA800849FF3 /* Files */ = {
@@ -213,13 +213,13 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		C7B0C62D28F213AE0058F081 /* Banked Up Unit Tests */ = {
+		C7B0C62D28F213AE0058F081 /* BANKER Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C70D1ECE28F8AE9F00B50572 /* Account Summary */,
 				C70D1ECD28F8AE8B00B50572 /* Utilities */,
 			);
-			path = "Banked Up Unit Tests";
+			path = "BANKER Unit Tests";
 			sourceTree = "<group>";
 		};
 		C7C4219228ED3E07002A6931 /* Header */ = {
@@ -234,9 +234,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C77ABCA228D8C6F300849FF3 /* Banked Up */ = {
+		C77ABCA228D8C6F300849FF3 /* BANKER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C77ABCB728D8C6F500849FF3 /* Build configuration list for PBXNativeTarget "Banked Up" */;
+			buildConfigurationList = C77ABCB728D8C6F500849FF3 /* Build configuration list for PBXNativeTarget "BANKER" */;
 			buildPhases = (
 				C77ABC9F28D8C6F300849FF3 /* Sources */,
 				C77ABCA028D8C6F300849FF3 /* Frameworks */,
@@ -246,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = "Banked Up";
+			name = BANKER;
 			productName = "Banked Up";
-			productReference = C77ABCA328D8C6F300849FF3 /* Banked Up.app */;
+			productReference = C77ABCA328D8C6F300849FF3 /* BANKER.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7B0C62B28F213AE0058F081 /* Banked Up Unit Tests */ = {
+		C7B0C62B28F213AE0058F081 /* BANKER Unit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7B0C63228F213AE0058F081 /* Build configuration list for PBXNativeTarget "Banked Up Unit Tests" */;
+			buildConfigurationList = C7B0C63228F213AE0058F081 /* Build configuration list for PBXNativeTarget "BANKER Unit Tests" */;
 			buildPhases = (
 				C7B0C62828F213AE0058F081 /* Sources */,
 				C7B0C62928F213AE0058F081 /* Frameworks */,
@@ -264,9 +264,9 @@
 			dependencies = (
 				C7B0C63128F213AE0058F081 /* PBXTargetDependency */,
 			);
-			name = "Banked Up Unit Tests";
+			name = "BANKER Unit Tests";
 			productName = "Banked Up Unit Tests";
-			productReference = C7B0C62C28F213AE0058F081 /* Banked Up Unit Tests.xctest */;
+			productReference = C7B0C62C28F213AE0058F081 /* BANKER Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -289,7 +289,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C77ABC9E28D8C6F300849FF3 /* Build configuration list for PBXProject "Banked Up" */;
+			buildConfigurationList = C77ABC9E28D8C6F300849FF3 /* Build configuration list for PBXProject "BANKER" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -302,8 +302,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C77ABCA228D8C6F300849FF3 /* Banked Up */,
-				C7B0C62B28F213AE0058F081 /* Banked Up Unit Tests */,
+				C77ABCA228D8C6F300849FF3 /* BANKER */,
+				C7B0C62B28F213AE0058F081 /* BANKER Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,7 +370,7 @@
 /* Begin PBXTargetDependency section */
 		C7B0C63128F213AE0058F081 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C77ABCA228D8C6F300849FF3 /* Banked Up */;
+			target = C77ABCA228D8C6F300849FF3 /* BANKER */;
 			targetProxy = C7B0C63028F213AE0058F081 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,7 +510,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E7DB2AD65D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Banked Up/Info.plist";
+				INFOPLIST_FILE = BANKER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -520,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.examplejojo.Banked-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = com.examplejojo.BANKER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,7 +537,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E7DB2AD65D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Banked Up/Info.plist";
+				INFOPLIST_FILE = BANKER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -547,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.examplejojo.Banked-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = com.examplejojo.BANKER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -576,7 +576,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banked Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Banked Up";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BANKER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BANKER";
 			};
 			name = Debug;
 		};
@@ -600,14 +600,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banked Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Banked Up";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BANKER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BANKER";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C77ABC9E28D8C6F300849FF3 /* Build configuration list for PBXProject "Banked Up" */ = {
+		C77ABC9E28D8C6F300849FF3 /* Build configuration list for PBXProject "BANKER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C77ABCB528D8C6F500849FF3 /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C77ABCB728D8C6F500849FF3 /* Build configuration list for PBXNativeTarget "Banked Up" */ = {
+		C77ABCB728D8C6F500849FF3 /* Build configuration list for PBXNativeTarget "BANKER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C77ABCB828D8C6F500849FF3 /* Debug */,
@@ -625,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7B0C63228F213AE0058F081 /* Build configuration list for PBXNativeTarget "Banked Up Unit Tests" */ = {
+		C7B0C63228F213AE0058F081 /* Build configuration list for PBXNativeTarget "BANKER Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7B0C63328F213AE0058F081 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  OnboardingViewController.swift
-//  Banked Up
+//  BANKER
 //
 //  Created by Joseph Gilmore on 9/20/22.
 //

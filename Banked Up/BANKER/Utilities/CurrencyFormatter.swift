@@ -1,6 +1,6 @@
 //
 //  CurrencyFormatter.swift
-//  Banked Up
+//  BANKER
 //
 //  Created by Joseph Gilmore on 10/6/22.
 //

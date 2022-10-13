@@ -1,6 +1,6 @@
 //
 //  OnboardingContainerViewController.swift
-//  Banked Up
+//  BANKER
 //
 //  Created by Joseph Gilmore on 9/20/22.
 //
@@ -23,7 +23,7 @@ class OnboardingContainerViewController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
-        let page1 = OnboardingViewController(imageName: "dollar coin", titleText: "Welcome to your new banking app, Banked Up!")
+        let page1 = OnboardingViewController(imageName: "dollar coin", titleText: "Welcome to your new banking app, BANKER!")
         let page2 = OnboardingViewController(imageName: "house", titleText: "Manage your assets and finances...")
         let page3 = OnboardingViewController(imageName: "bitcoin", titleText: "Even track crypto!")
         

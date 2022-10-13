@@ -1,6 +1,6 @@
 //
 //  ProfileTests.swift
-//  Banked Up Unit Tests
+//  BANKER Unit Tests
 //
 //  Created by Joseph Gilmore on 10/13/22.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import XCTest
 
-@testable import Banked_Up
+@testable import BANKER
 
 class ProfileTests: XCTestCase {
     
