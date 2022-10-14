@@ -12,6 +12,8 @@
 		C70D1ECC28F74CDC00B50572 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ECB28F74CDC00B50572 /* AccountSummaryViewController+Networking.swift */; };
 		C70D1ED028F8AEC600B50572 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ECF28F8AEC600B50572 /* ProfileTests.swift */; };
 		C70D1ED228F8AFD800B50572 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ED128F8AFD800B50572 /* AccountTests.swift */; };
+		C70D1ED428F9F7E700B50572 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ED328F9F7E700B50572 /* SkeletonLoadable.swift */; };
+		C70D1ED628F9F95300B50572 /* SkelletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ED528F9F95300B50572 /* SkelletonCell.swift */; };
 		C75112EE28DABABB008F04BE /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */; };
 		C75112F028DAC1F8008F04BE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112EF28DAC1F8008F04BE /* OnboardingViewController.swift */; };
 		C75112F428E3F3C5008F04BE /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112F328E3F3C5008F04BE /* DummyViewController.swift */; };
@@ -50,6 +52,8 @@
 		C70D1ECB28F74CDC00B50572 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		C70D1ECF28F8AEC600B50572 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		C70D1ED128F8AFD800B50572 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		C70D1ED328F9F7E700B50572 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		C70D1ED528F9F95300B50572 /* SkelletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkelletonCell.swift; sourceTree = "<group>"; };
 		C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		C75112EF28DAC1F8008F04BE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C75112F328E3F3C5008F04BE /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				C762638F28ED3E65008285C7 /* AccountSummaryCell.swift */,
+				C70D1ED328F9F7E700B50572 /* SkeletonLoadable.swift */,
+				C70D1ED528F9F95300B50572 /* SkelletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				C768C6B328EA87AB0028A01F /* UIViewController+Utils.swift in Sources */,
 				C70D1ECA28F74B7500B50572 /* Date+Utils.swift in Sources */,
 				C77ABCBE28D8CE1800849FF3 /* LoginView.swift in Sources */,
+				C70D1ED628F9F95300B50572 /* SkelletonCell.swift in Sources */,
 				C75112F728E3FA70008F04BE /* LocalState.swift in Sources */,
 				C768C6BA28EBEA750028A01F /* AccountSummaryHeaderView.swift in Sources */,
 				C7B0C63A28F47BAD0058F081 /* UITextField+SecureToggle.swift in Sources */,
@@ -351,6 +358,7 @@
 				C768C6B828EBE7FD0028A01F /* AccountSummaryViewController.swift in Sources */,
 				C77ABCA728D8C6F300849FF3 /* AppDelegate.swift in Sources */,
 				C75112EE28DABABB008F04BE /* OnboardingContainerViewController.swift in Sources */,
+				C70D1ED428F9F7E700B50572 /* SkeletonLoadable.swift in Sources */,
 				C70D1ECC28F74CDC00B50572 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
