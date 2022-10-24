@@ -1,4 +1,4 @@
-# banked-up
+# BANKER
 
 Banking app with test cases in authentication, login, onboarding, etc.
 
