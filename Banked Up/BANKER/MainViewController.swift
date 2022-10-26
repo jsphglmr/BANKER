@@ -17,7 +17,7 @@ class MainViewController: UITabBarController {
     
     private func setupViews() {
         let summaryVC = AccountSummaryViewController()
-        let transferVC = TransferViewController()
+        let transferVC = AccountTransferViewController()
         let moreVC = MoreViewController()
         
         summaryVC.setTabBarImage(imageName: "list.dash.header.rectangle", title: "Summary")
@@ -45,17 +45,5 @@ class MainViewController: UITabBarController {
     private func setupTabBar() {
         tabBar.tintColor = appColor
         tabBar.isTranslucent = false
-    }
-}
-
-class TransferViewController: UIViewController {
-    override func viewDidLoad() {
-        view.backgroundColor = .systemOrange
-    }
-}
-
-class MoreViewController: UIViewController {
-    override func viewDidLoad() {
-        view.backgroundColor = .systemGreen
     }
 }

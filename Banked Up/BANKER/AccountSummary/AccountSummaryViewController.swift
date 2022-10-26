@@ -175,11 +175,15 @@ extension AccountSummaryViewController {
     private func displayError(_ error: NetworkError) {
         switch error {
         case .decodingError:
-            self.showErrorAlert(title: "Decoding Error",
-                                message: "We could not process your request. Please try again.")
+            self.showErrorAlert(
+                title: "Decoding Error",
+                message: "We could not process your request. Please try again."
+            )
         case .serverError:
-            self.showErrorAlert(title: "Server Error",
-                                message: "Trouble contacting server. Please ensure that you are connected to the internet and try again.")
+            self.showErrorAlert(
+                title: "Server Error",
+                message: "Trouble contacting server. Please ensure that you are connected to the internet and try again."
+            )
         }
     }
     
