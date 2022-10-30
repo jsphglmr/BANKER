@@ -17,6 +17,8 @@
 		C70D1EDA2909099B00B50572 /* AccountTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1ED92909099B00B50572 /* AccountTransferViewController.swift */; };
 		C70D1EDC290909A200B50572 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1EDB290909A200B50572 /* MoreViewController.swift */; };
 		C70D1EDF29090B3800B50572 /* AccountTransferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D1EDE29090B3800B50572 /* AccountTransferCell.swift */; };
+		C70D1EE1290E3F2B00B50572 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C70D1EE0290E3F2B00B50572 /* data.json */; };
+		C70D1EE2290E3F2B00B50572 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C70D1EE0290E3F2B00B50572 /* data.json */; };
 		C75112EE28DABABB008F04BE /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */; };
 		C75112F028DAC1F8008F04BE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112EF28DAC1F8008F04BE /* OnboardingViewController.swift */; };
 		C75112F428E3F3C5008F04BE /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75112F328E3F3C5008F04BE /* DummyViewController.swift */; };
@@ -60,6 +62,7 @@
 		C70D1ED92909099B00B50572 /* AccountTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTransferViewController.swift; sourceTree = "<group>"; };
 		C70D1EDB290909A200B50572 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		C70D1EDE29090B3800B50572 /* AccountTransferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTransferCell.swift; sourceTree = "<group>"; };
+		C70D1EE0290E3F2B00B50572 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		C75112ED28DABABB008F04BE /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		C75112EF28DAC1F8008F04BE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		C75112F328E3F3C5008F04BE /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
@@ -235,6 +238,7 @@
 		C77ABCBB28D8CDA800849FF3 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				C70D1EE0290E3F2B00B50572 /* data.json */,
 				C77ABCAF28D8C6F400849FF3 /* Assets.xcassets */,
 				C77ABCB128D8C6F400849FF3 /* LaunchScreen.storyboard */,
 				C77ABCB428D8C6F500849FF3 /* Info.plist */,
@@ -355,6 +359,7 @@
 				C762638D28ED3E3D008285C7 /* AccountSummaryHeaderView.xib in Resources */,
 				C77ABCB328D8C6F400849FF3 /* LaunchScreen.storyboard in Resources */,
 				C77ABCB028D8C6F400849FF3 /* Assets.xcassets in Resources */,
+				C70D1EE1290E3F2B00B50572 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70D1EE2290E3F2B00B50572 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
