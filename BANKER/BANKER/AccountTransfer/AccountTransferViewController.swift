@@ -9,22 +9,6 @@ import UIKit
 
 class AccountTransferViewController: UIViewController {
     
-    private let stackView: UIStackView = {
-        let stackView = UIStackView()
-        stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.axis = .vertical
-        stackView.spacing = 20
-        return stackView
-    }()
-    
-    private let label: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "AccountTransferVC text placeholder"
-        label.font = UIFont.preferredFont(forTextStyle: .title1)
-        return label
-    }()
-    
     private let tableView: UITableView = {
         let tableView = UITableView()
         return tableView
@@ -32,25 +16,29 @@ class AccountTransferViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        layout()
-        style()
+        setup()
     }
 }
 
 extension AccountTransferViewController {
-    func layout() {
-        stackView.addArrangedSubview(label)
-        view.addSubview(stackView)
-        
-        let stackViewConstraints = [
-            stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ]
-        NSLayoutConstraint.activate(stackViewConstraints)
+    func setup() {
+        setLogoutNavigationButton()
+        view.addSubview(tableView)
+        tableView.delegate = self
+        tableView.dataSource = self
     }
-    
-    func style() {
-        view.backgroundColor = .systemPurple
+}
+
+extension AccountTransferViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+}
+
+extension AccountTransferViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        return cell
     }
 }
 
