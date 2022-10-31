@@ -21,4 +21,18 @@ extension UIViewController {
         let image = UIImage(systemName: imageName, withConfiguration: configuration)
         tabBarItem = UITabBarItem(title: title, image: image, tag: 0)
     }
+    
+    func setLogoutNavigationButton() {
+        lazy var logoutBarButtonItem: UIBarButtonItem = {
+            let button = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logoutTapped))
+            button.tintColor = .label
+            return button
+        }()
+        navigationItem.rightBarButtonItem = logoutBarButtonItem
+    }
+    
+    @objc func logoutTapped(sender: UIButton) {
+        NotificationCenter.default.post(name: .logout, object: nil)
+    }
+    
 }
